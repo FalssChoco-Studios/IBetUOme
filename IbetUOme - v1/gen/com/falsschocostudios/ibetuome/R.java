@@ -980,11 +980,13 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_action_add_person=0x7f020057;
-        public static final int ic_action_new=0x7f020058;
-        public static final int ic_action_search=0x7f020059;
-        public static final int ic_drawer=0x7f02005a;
-        public static final int ic_launcher=0x7f02005b;
+        public static final int backg=0x7f020057;
+        public static final int ic_action_add_person=0x7f020058;
+        public static final int ic_action_new=0x7f020059;
+        public static final int ic_action_search=0x7f02005a;
+        public static final int ic_drawer=0x7f02005b;
+        public static final int ic_launcher=0x7f02005c;
+        public static final int sidebar_graphs=0x7f02005d;
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f05003f;
@@ -2438,7 +2440,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x01010435
+            0x0101012f, 0x01010130, 0x01010131, 0x0101040c
         };
         /**
           <p>
