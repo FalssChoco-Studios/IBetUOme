@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:IbetUOme="http://schemas.android.com/apk/res-auto" >
+	<item android:id="@+id/action_new"
+          android:icon="@drawable/ic_action_new"
+          android:title="New"
+          android:showAsAction="ifRoom"
+          IbetUOme:showAsAction="ifRoom"  >
+		<menu>
+			<item android:id="@+id/newBet" android:title="New Bet"/>
+			<item android:id="@+id/newDebt" android:title="New Debt"/>
+		</menu>
+	</item>
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="Search"
+          android:showAsAction="ifRoom|collapseActionView"
+          IbetUOme:showAsAction="ifRoom|collapseActionView"
+          android:actionViewClass="android.widget.SearchView"
+          IbetUOme:actionViewClass="android.support.v7.widget.SearchView"  />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item android:id="@+id/logout" android:title="Logout"></item>
+    <item android:id="@+id/languages" android:title="Languages">
+        <menu>
+            <item android:id="@+id/english" android:title="English"/>
+            <item android:id="@+id/spanish" android:title="Spanish"/>
+        </menu>
+    </item>
+
+</menu>

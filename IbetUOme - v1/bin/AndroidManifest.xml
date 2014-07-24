@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.falsschocostudios.ibetuome"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.falsschocostudios.ibetuome.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.falsschocostudios.ibetuome.NewBowme"
+            android:label="@string/title_activity_new_bowme"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName="com.falsschocostudios.ibetuome.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.falsschocostudios.ibetuome.Home" />
+        </activity>
+        <activity
+            android:name="com.falsschocostudios.ibetuome.ReviewBowme"
+            android:label="@string/title_activity_review_bowme"
+            android:parentActivityName="com.falsschocostudios.ibetuome.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.falsschocostudios.ibetuome.Home" />
+        </activity>
+    </application>
+
+</manifest>
